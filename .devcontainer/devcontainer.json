@@ -1,0 +1,9 @@
+{
+  "name": "Basic Node.js",
+  "build": { "dockerfile": "Dockerfile" },
+"remoteUser": "node",
+"features": {
+	"ghcr.io/devcontainers/features/aws-cli:1": {},
+	"ghcr.io/itsmechlark/features/postgresql:1": {}
+}
+}
