@@ -1,5 +1,7 @@
 FROM library/node:lts-bookworm
 
+RUN npm install -g pnpm
+
 ARG DEBIAN_FRONTEND=noninteractive
 RUN apt update \
     && apt install -y --no-install-recommends sudo \
